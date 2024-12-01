@@ -5,8 +5,24 @@ h1, h2, h3{
 a{
     color: #2596be !important;
 }
+
+.detail{
+    color: black;
+}
+
+.highlight-container{
+    margin: 3em 0em !important;
+    padding: 2em;
+    border-radius: 2em;
+    background-color: rgb(238, 238, 238);
+}
+
 section{
     padding: 1em 2em;
+}
+
+#header-box{
+    margin: 5em 2em 1em 2em;
 }
 
 #frontPicBox{
