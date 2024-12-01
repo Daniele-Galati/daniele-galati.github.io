@@ -1,7 +1,28 @@
 h1, h2, h3{
-    color:navy !important;
+    color: #2596be !important;
 }
 
+a{
+    color: #2596be !important;
+}
 section{
-    padding: 2em;
+    padding: 1em 2em;
+}
+
+#frontPicBox{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#frontPic{
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+}
+
+#infoBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
