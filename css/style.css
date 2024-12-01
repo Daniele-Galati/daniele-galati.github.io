@@ -42,3 +42,25 @@ section{
     flex-direction: column;
     justify-content: center;
 }
+
+@media (max-width: 1248px) {
+    #frontPic{
+        border-radius: 50%;
+        width: 30vw;
+        height: 30vw;
+    }
+}
+
+@media (max-width: 767px) {
+    #frontPic{
+        border-radius: 50%;
+        width: 50vw;
+        height: 50vw;
+        margin-bottom: 2em;
+    }
+
+    #infoBox{
+        text-align: center;
+        align-items: center;
+    }
+}
