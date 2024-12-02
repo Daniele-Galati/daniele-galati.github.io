@@ -96,6 +96,13 @@ section{
     overflow: hidden;
 }
 
+.other-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .call-to-action{
     text-align: center;
     padding: 2em;
