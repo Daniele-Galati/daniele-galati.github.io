@@ -88,6 +88,11 @@ section{
     overflow: hidden;
 }
 
+#carousel2{
+    border-radius: 1em;
+    overflow: hidden;
+}
+
 @media (max-width: 1248px) {
     #frontPic{
         border-radius: 50%;
