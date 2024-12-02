@@ -48,6 +48,12 @@ section{
     justify-content: center;
 }
 
+.logo-img{
+    width: 18%;
+    padding: 1em;
+    object-fit: cover;
+}
+
 .project{
     padding: .8em .3em;
 }
@@ -129,6 +135,20 @@ footer{
         width: 30vw;
         height: 30vw;
     }
+
+    .logo-img{
+        width: 20%;
+        padding: 1em;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 992px) {
+    .logo-img{
+        width: 40%;
+        padding: 1em;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 767px) {
@@ -150,5 +170,11 @@ footer{
 
     .carousel-div{
         margin-bottom: 1em;
+    }
+
+    .logo-img{
+        width: 20%;
+        padding: 1em;
+        object-fit: cover;
     }
 }
