@@ -96,6 +96,15 @@ section{
     overflow: hidden;
 }
 
+.logoContainer{
+}
+
+.iconImg{
+    padding: .5em;
+    width: 5vw;
+    object-fit: cover;
+}
+
 .other-card{
     text-align: center;
     display: flex;
