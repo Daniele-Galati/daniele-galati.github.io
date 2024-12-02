@@ -74,13 +74,16 @@ section{
 .projectBtn{
     text-decoration: none;
     padding: .4em;
+    background-color: #2596be;
+    color: white !important;
     border: 1px solid #2596be;
     border-radius: .5em;
 }
 
 .projectBtn:hover{
-    background-color: #2596be;
-    color: white !important;
+    background-color: #fff;
+    color: #2596be !important;
+    border: 1px solid #2596be;
 }
 
 #carousel{
@@ -91,6 +94,24 @@ section{
 #carousel2{
     border-radius: 1em;
     overflow: hidden;
+}
+
+.call-to-action{
+    text-align: center;
+    padding: 2em;
+    border-radius: 1em;
+    background-color: rgb(238, 238, 238);
+}
+
+.action-txt{
+    font-size: 2em;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 3em;
+    padding-bottom: 3em;
 }
 
 
