@@ -159,4 +159,11 @@ footer{
     .carousel-div{
         margin-bottom: 1em;
     }
+
+    .iconImg{
+        padding: .5em;
+        max-width: 100px !important;
+        width: 20vw !important;
+        object-fit: cover !important;
+    }
 }
