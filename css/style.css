@@ -93,6 +93,7 @@ section{
     overflow: hidden;
 }
 
+
 @media (max-width: 1248px) {
     #frontPic{
         border-radius: 50%;
