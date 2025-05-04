@@ -181,6 +181,16 @@ h4{
     background-color: red;
 }
 
+.sw-html{
+    border: 2px solid blue;
+    background-color: blue;
+}
+
+.sw-css{
+    border: 2px solid purple;
+    background-color: purple;
+}
+
 .card-container::-webkit-scrollbar {
     height: 8px;
 }
