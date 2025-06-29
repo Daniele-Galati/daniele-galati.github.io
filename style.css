@@ -229,6 +229,69 @@ footer a{
     transition: 0.3s;
 }
 
+#back-btn{
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    padding: 0.5em 1em;
+    background-color: white;
+    
+    color: #1b3b7f;
+    text-decoration: none;
+    
+    border: 2px solid #1b3b7f;
+    border-radius: 0.5em;
+    
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
+    transition: 0.3s;
+}
+
+#back-text{
+    display: block;
+    margin-bottom: 1em ;
+    color: #1b3b7f;
+
+    transition: 0.3s;
+}
+
+#back-text:hover{
+    color: black;
+}
+
+
+#back-btn:hover{
+    background-color: #1b3b7f;
+    color: white;
+}
+
+.project-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-div img{
+    margin: 1em;
+    align-self: center;
+    width: 40%;
+}
+
+li{
+    color: black;
+}
+
+#carousel{
+    width: 50%;
+    align-self: center;
+}
+
+
+.carousel-caption, .carousel-caption h5, .carousel-caption p{
+    text-shadow: 5px 5px 5px black;
+    color: white;
+}
+
 @media (max-width: 992px) {
 
     h1{
@@ -274,5 +337,9 @@ footer a{
 
     #spacer{
         display: none;
+    }
+
+    .project-div img{
+        width: 90%;
     }
 }
