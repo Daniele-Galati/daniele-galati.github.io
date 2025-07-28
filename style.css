@@ -1,345 +1,110 @@
 body{
-    font-family: "Cascadia Mono", sans-serif !important;
-    color: #1b3b7f !important;
-    width: 100%;
-}
-
-p{
-    color: black;
-}
-
-aside{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 24vw;
-    text-align: center;
-    position: fixed;
-    padding: 1em !important;
-    height: 100vh !important;
-    background-color: #1b3b7f;
-    color: white;
-}
-
-aside p{
-    color: white;
-    padding: 0.2em !important;
-    margin: 0 !important;
-}
-
-.social-a{
-    border-radius: 1em;
-    overflow: visible;
-    width: 2em;
-    transition: 0.1s;
-}
-
-.social-a:hover{
-    padding: .1em;
-    
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-main{
-    padding-top: 5em;
-}
-
-
-h1{
-    margin: 0 !important;
-    font-size: 2.3em !important;
-}
-
-h2{
-    font-size: 1.8em !important;
-}
-
-h3{
-    font-size: 1.5em !important;
-}
-
-h4{
-    font-size: 1.3em !important;
-}
-
-.card-container {
-    width: 100%;
-    padding: 1em;
-    padding-top: 0em;
-    margin-bottom: 2em;
-    display: flex;
-    overflow-x: auto;
-    flex-wrap: nowrap;
-}
-
-.project-card {
-    color: inherit !important;
-    text-decoration: none;
-    flex: 0 0 auto;
-    min-width: 200px !important;
-    margin: .5em;
-    margin-bottom: 0;
-    border-radius: .5em;
-    width: 18vw;
-    overflow: hidden;
-    border: 2px solid #1b3b7f;
-    background-color: rgb(230, 230, 230);
-
-    transition: .3s;
-    
-    position: relative;
-    top: 0;
-    transition: top ease 0.5s;
-}
-
-
-.project-card:hover{
-    top: -5px;
-    background-color: #1b3b7f;
-    color: white !important;
-}
-
-.project-card:hover p{
-    color: white;
-}
-
-.project-card:hover .software-span{
-    border-color: white;
-}
-
-
-.card-img{
-    width: 100% !important;
-    border-bottom: 1px solid #1b3b7f;
-    object-fit: cover;
-}
-
-.card-info{
-    padding: .5em;
-    padding-bottom: 0;
-}
-
-
-#profilePic{
-    margin: 2em;
-    width: 60%;
-}
-
-#cv-a{
-    margin-top: 3em;
-    display: block;
-    margin-top: 1em;
-    border-radius: .5em;
-    border: 2px solid white;
-    background-color: #1b3b7f;
-    color: white;
-    text-decoration: none;
-    padding: 1em;
-    transition: 0.3s;
-}
-
-#cv-a:hover{
-    background-color: white;
-    color: #1b3b7f;
-
-}
-
-.software-span{
-    margin: 0.1em;
-    border-radius: .5em;
-    padding: 0.2em 0.5em;
-    color: white;
-
-    transition: 0.3s;
-}
-
-.sw-blender{
-    border: 2px solid orange;
-    background-color: orange;
-}
-
-.sw-unity{
-    border:  2px solid rgb(54, 54, 54);
-    background-color: rgb(54, 54, 54);
-    color: white;
-}
-
-.sw-inspire{
-    border: 2px solid rgb(255, 94, 0);
-    background-color: rgb(255, 94, 0);
-}
-
-.sw-fluent{
-    border: 2px solid rgb(0, 255, 179);
-    background-color: rgb(0, 255, 179);
-    color: black;
-}
-
-.sw-fusion{
-    border: 2px solid red;
-    background-color: red;
-}
-
-.sw-html{
-    border: 2px solid blue;
-    background-color: blue;
-}
-
-.sw-css{
-    border: 2px solid purple;
-    background-color: purple;
-}
-
-.card-container::-webkit-scrollbar {
-    height: 8px;
-}
-
-.card-container::-webkit-scrollbar-thumb {
-background: #1b3b7f;
-border-radius: 4px;
-}
-
-.card-container::-webkit-scrollbar-thumb:hover {
-background: black;
-}
-
-.card-container::-webkit-scrollbar-track{
-background-color: rgb(230, 230, 230);
-border-radius: 4px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #333e43;
+    color: #DDC9B4;
 }
 
 header{
-    display: none;
-    background-color: #1b3b7f;
+    padding: 1em 1em;
+    background-color: #333e43;
 }
 
-footer{
-    padding: 2em 0em;
-    background-color:rgb(54, 54, 54);
-    text-align: center;
-}
-
-footer p{
-    color: white;
-}
-
-footer a{
-    color: white;
-    transition: 0.3s;
-}
-
-#back-btn{
-    margin-right: 1.5em;
-    margin-bottom: 1.5em;
-    padding: 0.5em 1em;
-    background-color: white;
-    
-    color: #1b3b7f;
+header a{
     text-decoration: none;
-    
-    border: 2px solid #1b3b7f;
-    border-radius: 0.5em;
-    
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    
-    transition: 0.3s;
+    color: inherit;
 }
 
-#back-text{
-    display: block;
-    margin-bottom: 1em ;
-    color: #1b3b7f;
-
-    transition: 0.3s;
-}
-
-#back-text:hover{
-    color: black;
+header span a{
+    padding-left: 1em;
 }
 
 
-#back-btn:hover{
-    background-color: #1b3b7f;
+.accent{
+    color: #bf6a60;
+}
+
+.secondary{
+    color: #BCAC9B;
+}
+
+
+.category-row{
+    margin: 3em;
+}
+
+.img-category{
+    border-radius: .5em;
+    width: 80%;
+    transition: .8s;
+    border: 4px solid #333e43;
+}
+
+
+.h2-category{
+    margin-top: .8em;
+    font-style: italic;
+    transition: 0.8s;
+}
+
+.category-card{
+    color: inherit;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.category-card:hover h2{
+    color: #bf6a60;
+}
+
+.category-card:hover img{
+    filter: brightness(1.2);
+    border: 4px solid #bf6a60;
+}
+
+.img-project{
+    border-radius: .5em;
+    width: 100%;
+}
+
+main{
+    height: 95vh;
+    margin-top: 3em;
+}
+
+section{
+    background-color: #DDC9B4;
+    color: #333e43;
+}
+
+.proj-card img{
+    transition: 0.8s;
+}
+
+.proj-card:hover img{
+    filter: brightness(1.2);
+}
+
+
+::selection{
+    background-color: #bf6a60;
     color: white;
 }
 
-.project-div{
-    display: flex;
-    flex-direction: column;
-}
-
-.project-div img{
-    margin: 1em;
-    align-self: center;
-    width: 40%;
-}
-
-li{
-    color: black;
-}
-
-#carousel{
+@media screen and (max-width: 768px) {
+    .img-category{
     width: 50%;
-    align-self: center;
-}
-
-
-.carousel-caption, .carousel-caption h5, .carousel-caption p{
-    text-shadow: 5px 5px 5px black;
-    color: white;
-}
-
-@media (max-width: 992px) {
-
-    h1{
-        padding-top: 1em;
+    transition: .8s;
     }
 
-    h2{
-        padding-left: 0.5em;
-    }
-
-    h3{
-        padding-left: 0.5em;
+    .h2-category{
+        font-size:medium
     }
 
     main{
-        padding-top: 0;
-    }
-    .container{
-        padding: 0 !important;
-        width: 100%;
-    }
-    
-    aside {
-        display: none;
-    }
-    
-    header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        padding-bottom: 2em;
-        margin-bottom: 2em;
-        text-align: center;
+        margin-top: 5em;
+        height: auto;
     }
 
-    header p{
-        color: white;
-        padding: 0.2em !important;
-        margin: 0 !important;
-    }
-
-    #spacer{
-        display: none;
-    }
-
-    .project-div img{
-        width: 90%;
-    }
 }
