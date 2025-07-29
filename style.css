@@ -68,6 +68,10 @@ header span a{
     width: 100%;
 }
 
+.external-link{
+    color: #bf6a60;
+}
+
 main{
     height: 95vh;
     margin-top: 3em;
@@ -110,6 +114,8 @@ section:nth-child(even) .accent{
     .h2-category{
         font-size:medium
     }
+
+
 
     main{
         margin-top: 5em;
