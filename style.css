@@ -29,97 +29,11 @@ header span a{
     color: #BCAC9B;
 }
 
-
-.category-row{
-    margin: 3em;
-}
-
-.img-category{
-    border-radius: .5em;
-    width: 80%;
-    transition: .8s;
-    border: 4px solid #333e43;
-}
-
-
-.h2-category{
-    margin-top: .8em;
-    font-style: italic;
-    transition: 0.8s;
-}
-
-.category-card{
-    color: inherit;
-    text-decoration: none;
-    padding: 1em;
-}
-
-.category-card:hover h2{
-    color: #bf6a60;
-}
-
-.category-card:hover img{
-    filter: brightness(1.2);
-    border: 4px solid #bf6a60;
-}
-
-.img-project{
-    border-radius: .5em;
-    width: 100%;
-}
-
 .external-link{
     color: #bf6a60;
 }
 
-main{
-    height: 95vh;
-    margin-top: 3em;
-}
-
-section:nth-child(odd){
-    background-color: #DDC9B4;
-    color: #333e43;
-}
-
-section:nth-child(even){
-    background-color: #333e43;
-    color: #DDC9B4;
-}
-
-section:nth-child(even) .accent{
-    color: #bf6a60;
-}
-
-.proj-card img{
-    transition: 0.8s;
-}
-
-.proj-card:hover img{
-    filter: brightness(1.2);
-}
-
-
 ::selection{
     background-color: #bf6a60;
     color: white;
-}
-
-@media screen and (max-width: 768px) {
-    .img-category{
-    width: 50%;
-    transition: .8s;
-    }
-
-    .h2-category{
-        font-size:medium
-    }
-
-
-
-    main{
-        margin-top: 5em;
-        height: auto;
-    }
-
 }

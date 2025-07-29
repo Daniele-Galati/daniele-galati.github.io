@@ -1,0 +1,55 @@
+.main-a{
+    color: #bf6a60;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: .5em;
+    margin-top: .5em;
+    border: 2px solid #bf6a60;
+    border-radius: 1em;
+    align-self: flex-start;
+    transition: 0.8s;
+}
+
+.main-a:hover{
+    background-color: #bf6a60;
+    color: #DDC9B4;
+    border-color: #DDC9B4;
+}
+
+main{
+    height: 95vh;
+}
+
+#profile_pic{
+    border-radius: 100em;
+    height: 40vh;
+    transition: 0.8s;
+}
+
+#profile_pic:hover{
+    filter: brightness(1.2);
+}
+
+@media screen and (max-width: 768px) {
+
+    main{
+        height: 90vh;
+    }
+
+    .home-column{
+        justify-content: center !important;
+        align-items: center;
+        text-align: center;
+    }
+
+    #profile_pic{
+        height: 25vh;
+        margin-bottom: 1.5em;
+    }
+
+    .main-a{
+        align-self: inherit;
+    }
+
+}
