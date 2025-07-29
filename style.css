@@ -73,9 +73,18 @@ main{
     margin-top: 3em;
 }
 
-section{
+section:nth-child(odd){
     background-color: #DDC9B4;
     color: #333e43;
+}
+
+section:nth-child(even){
+    background-color: #333e43;
+    color: #DDC9B4;
+}
+
+section:nth-child(even) .accent{
+    color: #bf6a60;
 }
 
 .proj-card img{
