@@ -7,6 +7,24 @@ h2{
     color: #bf6a60;
 }
 
+.main-a{
+    color: #bf6a60;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: .5em;
+    margin-top: .5em;
+    border: 2px solid #bf6a60;
+    border-radius: 1em;
+    align-self: flex-start;
+    transition: 0.8s;
+}
+
+.main-a:hover{
+    background-color: #bf6a60;
+    color: #DDC9B4;
+}
+
 .resume-column{
     border-left: 2px solid #bf6a60;
     padding: 0.5em 1em 0em 1em;
