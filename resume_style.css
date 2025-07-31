@@ -1,0 +1,29 @@
+main{
+    margin-top: 5em;
+    padding: 0em 3em !important;
+}
+
+h2{
+    color: #bf6a60;
+}
+
+.resume-column{
+    border-left: 2px solid #bf6a60;
+    padding: 0.5em 1em 0em 1em;
+    margin-bottom: 1em;
+    transition: .2s ease-out;
+}
+
+.resume-column:hover{
+    border-left: 5px solid #DDC9B4;
+}
+
+#left-resume{
+    padding: 1em;
+}
+
+#right-resume{
+    background-color: #DDC9B4;
+    color: #333e43;
+    padding: 1em;
+}
